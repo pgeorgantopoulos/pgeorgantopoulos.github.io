@@ -4,7 +4,7 @@ PhD student, NTUA
 
 [@ Linked In](https://www.linkedin.com/in/panagiotis-georgantopoulos/)
 
-[@ Google Scholar](https://scholar.google.com/citations?user=abCbAJAAAAAJ&hl=en)
+[@ Google Scholar](https://scholar.google.com/citations?user=8rPWuvAAAAAJ&hl=en)
 
 ---
 
