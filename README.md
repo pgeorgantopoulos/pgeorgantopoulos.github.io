@@ -1,5 +1,3 @@
-# Panagiotis Georgantopoulos
-
 PhD student, NTUA
 
 [pgeorgantopoulos@mail.ntua.gr](mailto:pgeorgantopoulos@mail.ntua.gr)
@@ -39,5 +37,4 @@ Helmke, U., & Moore, J. B. (n.d.). Optimization and Dynamical Systems. 414.
 ---
 my theses
 \
-[MSc thesis](https://hdl.handle.net/10889/26130)
-[Dipl. thesis](http://hdl.handle.net/10889/12845)
+[MSc](https://hdl.handle.net/10889/26130), [Diploma](http://hdl.handle.net/10889/12845)
