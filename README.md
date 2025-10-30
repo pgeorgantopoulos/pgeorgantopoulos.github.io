@@ -8,7 +8,7 @@ PhD student, NTUA
 
 ---
 
-* Working in [TURING EU](https://turing-project.eu) project with [M.Pateraki](https://scholar.google.com/citations?user=nHzAtCMAAAAJ&hl=en) @ [POSELab](https://github.com/POSE-Lab).
+* Working in [TURING EU](https://cordis.europa.eu/project/id/101215032) project with [M.Pateraki](https://scholar.google.com/citations?user=nHzAtCMAAAAJ&hl=en) @ [POSELab](https://github.com/POSE-Lab).
 \
 \
 \
