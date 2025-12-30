@@ -1,10 +1,10 @@
 PhD student, NTUA
 
+
+
 [pgeorgantopoulos@mail.ntua.gr](mailto:pgeorgantopoulos@mail.ntua.gr)
 
-[@ Linked In](https://www.linkedin.com/in/panagiotis-georgantopoulos/)
-
-[@ Google Scholar](https://scholar.google.com/citations?user=8rPWuvAAAAAJ&hl=en)
+[github.com](https://github.com/pgeorgantopoulos), [linkedin.com](https://www.linkedin.com/in/panagiotis-georgantopoulos), [scholar.google.com](https://scholar.google.com/citations?user=8rPWuvAAAAAJ&hl=en)
 
 ---
 
