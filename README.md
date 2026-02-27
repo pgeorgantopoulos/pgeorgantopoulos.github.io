@@ -1,37 +1,37 @@
-PhD student, NTUA
+PhD student, [POSELab](https://github.com/POSE-Lab), NTUA
 
-
-
-[pgeorgantopoulos@mail.ntua.gr](mailto:pgeorgantopoulos@mail.ntua.gr)
-
-[github.com](https://github.com/pgeorgantopoulos), [linkedin.com](https://www.linkedin.com/in/panagiotis-georgantopoulos), [scholar.google.com](https://scholar.google.com/citations?user=8rPWuvAAAAAJ&hl=en)
+<https://github.com/pgeorgantopoulos>\
+<https://www.linkedin.com/in/panagiotis-georgantopoulos>\
+<https://scholar.google.com/citations?user=8rPWuvAAAAAJ&hl=en>\
+<mailto:pgeorgantopoulos@mail.ntua.gr>
 
 ---
+Working in [TURING EU](https://cordis.europa.eu/project/id/101215032) project with [M.Pateraki](http://www.mpateraki.org/), [G.Arampatzis](https://arampatzis.github.io/en/), [E.Chatzi](https://chatzi.ibk.ethz.ch/about-us/people/prof-dr-eleni-chatzi.html).
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+_reads I liked..._
 
-* Working in [TURING EU](https://cordis.europa.eu/project/id/101215032) project with [M.Pateraki](https://scholar.google.com/citations?user=nHzAtCMAAAAJ&hl=en) @ [POSELab](https://github.com/POSE-Lab).
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-_stranger, take a good read with you..._
+Rudin, "Real and Complex Analysis".
 
-Rudin. (n.d.). [Real and Complex Analysis](https://59clc.files.wordpress.com/2011/01/real-and-complex-analysis.pdf).
+Hubbard, & West, "Differential Equations: A Dynamical Systems Approach."
 
-Hubbard, & West. (n.d.). [Differential Equations: A Dynamical Systems Approach](https://www-fourier.ujf-grenoble.fr/~dehornop/livres/HW2.pdf).
+Simon, D. (2006), "Optimal State Estimation: Kalman, H∞, and Nonlinear Approaches. John Wiley & Sons, Inc."
 
-Simon, D. (2006). [Optimal State Estimation: Kalman, H∞, and Nonlinear Approaches. John Wiley & Sons, Inc](https://doi.org/10.1002/0470045345).
+Helmke, U., & Moore, J. B., "Optimization and Dynamical Systems. 414."
 
-Helmke, U., & Moore, J. B. (n.d.). Optimization and Dynamical Systems. 414.
+Murphy, Kevin P. (2012) "Machine Learning: A Probabilistic Perspective."
 
+Strang, G., (2014), "Differential Equations and Linear Algebra"
 
 ---
 my theses
 \
-[MSc](https://hdl.handle.net/10889/26130), [Diploma](http://hdl.handle.net/10889/12845)
+[MSc thesis](https://hdl.handle.net/10889/26130), [Diploma thesis](http://hdl.handle.net/10889/12845)
