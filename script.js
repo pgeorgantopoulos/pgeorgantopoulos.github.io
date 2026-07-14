@@ -1,4 +1,27 @@
-// Smooth scroll navigation highlighting
+// Highlight the current section's nav link while scrolling.
+const sections = document.querySelectorAll('main .section[id]');
+const navLinks = document.querySelectorAll('.nav a');
+
+if ('IntersectionObserver' in window && sections.length && navLinks.length) {
+  const setActive = (id) => {
+    navLinks.forEach((link) => {
+      const isActive = link.getAttribute('href') === `#${id}`;
+      link.style.color = isActive ? 'var(--ink)' : '';
+      link.setAttribute('aria-current', isActive ? 'true' : 'false');
+    });
+  };
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) setActive(entry.target.id);
+      });
+    },
+    { rootMargin: '-40% 0px -55% 0px', threshold: 0 }
+  );
+
+  sections.forEach((section) => observer.observe(section));
+}// Smooth scroll navigation highlighting
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('.nav-link');
 
