@@ -1,0 +1,339 @@
+:root {
+    --primary-color: #1a1a2e;
+    --secondary-color: #16213e;
+    --accent-color: #0f3460;
+    --text-color: #eaeaea;
+    --text-light: #b8b8b8;
+    --border-color: #404052;
+    --highlight-color: #e94560;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 80px 20px 40px;
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 60px;
+    animation: fadeInDown 0.8s ease-out;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    background: linear-gradient(135deg, #fff 0%, var(--text-light) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.subtitle {
+    font-size: 1.4em;
+    color: var(--highlight-color);
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+.institution {
+    color: var(--text-light);
+    font-size: 1em;
+}
+
+.institution a {
+    color: var(--highlight-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.institution a:hover {
+    color: #ff6b7a;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.nav-link {
+    color: var(--text-light);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 8px 0;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--highlight-color);
+    border-bottom-color: var(--highlight-color);
+}
+
+/* Sections */
+.section {
+    margin-bottom: 80px;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.section h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--highlight-color) 0%, transparent 100%);
+}
+
+.section p {
+    color: var(--text-light);
+    font-size: 1.05em;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.section a {
+    color: var(--highlight-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.section a:hover {
+    color: #ff6b7a;
+    border-bottom-color: #ff6b7a;
+}
+
+/* Research */
+.research-item {
+    padding: 20px;
+    border-left: 3px solid var(--highlight-color);
+    background-color: rgba(15, 52, 96, 0.3);
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.research-item:hover {
+    background-color: rgba(15, 52, 96, 0.5);
+    transform: translateX(5px);
+}
+
+.research-item h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.research-item h3 a {
+    color: var(--highlight-color);
+    text-decoration: none;
+}
+
+.research-desc {
+    color: var(--text-light);
+    font-size: 0.95em;
+}
+
+/* Reading List */
+.reading-list {
+    list-style: none;
+    display: grid;
+    gap: 15px;
+}
+
+.reading-list li {
+    padding: 15px;
+    background-color: rgba(22, 33, 62, 0.5);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.reading-list li:hover {
+    background-color: rgba(22, 33, 62, 0.8);
+    border-color: var(--highlight-color);
+    box-shadow: 0 4px 12px rgba(233, 69, 96, 0.1);
+}
+
+.book-title {
+    color: #fff;
+    font-weight: 500;
+    flex: 1;
+}
+
+.book-author {
+    color: var(--text-light);
+    font-size: 0.9em;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+/* Contact */
+.contact-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-link {
+    padding: 12px 24px;
+    background-color: rgba(233, 69, 96, 0.1);
+    border: 2px solid var(--highlight-color);
+    color: var(--highlight-color);
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.contact-link:hover {
+    background-color: var(--highlight-color);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(233, 69, 96, 0.2);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-light);
+    font-size: 0.9em;
+    margin-top: 80px;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .subtitle {
+        font-size: 1.1em;
+    }
+
+    .nav {
+        gap: 20px;
+    }
+
+    .section h2 {
+        font-size: 1.5em;
+    }
+
+    .reading-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .book-author {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+
+    .contact-links {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    .header {
+        padding: 40px 15px 30px;
+        margin-bottom: 40px;
+    }
+
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+    .nav {
+        gap: 15px;
+        margin-bottom: 40px;
+    }
+
+    .nav-link {
+        font-size: 0.9em;
+    }
+
+    .section {
+        margin-bottom: 50px;
+    }
+
+    .section h2 {
+        font-size: 1.3em;
+    }
+}
